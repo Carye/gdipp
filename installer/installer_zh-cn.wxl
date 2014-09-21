@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<WixLocalization Codepage="936" Culture="zh-cn" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+	<String Id="LANGID" Overridable="yes">2052</String>
+	<String Id="version_fail_msg" Overridable="yes">版本或位元数不兼容。最小系统需求是 Windows Vista。</String>
+	<String Id="gdipp_service_desc_32" Overridable="yes">gdipp 32 位协调服务。</String>
+	<String Id="gdipp_service_desc_64" Overridable="yes">gdipp 64 位协调服务。</String>
+	<String Id="gdipp_loader_desc_32" Overridable="yes">gdipp 32 位程序加载器</String>
+	<String Id="gdipp_loader_desc_64" Overridable="yes">gdipp 64 位程序加载器</String>
+	<String Id="install_files_title" Overridable="yes">文件</String>
+	<String Id="install_files_desc" Overridable="yes">安装 gdipp !(bind.FileVersion.gdimm_dll) 的必要文件</String>
+	<String Id="install_misc_title" Overridable="yes">其他</String>
+	<String Id="install_misc_desc" Overridable="yes">安装 gdipp !(bind.FileVersion.gdimm_dll) 其他组件。</String>
+	<String Id="install_service_title" Overridable="yes">服务</String>
+	<String Id="install_service_desc" Overridable="yes">创建自动启动的 gdipp 协调服务。</String>
+	<String Id="install_shortcut_title" Overridable="yes">快捷方式</String>
+	<String Id="install_shortcut_desc" Overridable="yes">在桌面创建 gdipp 程序加载器的快捷方式。</String>
+	<String Id="start_svc_at_exit" Overridable="yes">立即启动服务</String>
+</WixLocalization>
